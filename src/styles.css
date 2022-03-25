@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 10px;
+    background-color: var( --surface-b );
+    font-family: var( --font-family );
+    
+}
+
+.text-layout {
+    color: var(--text-color);
+}
+
+.p-card {
+    background: #1f2d40;
+    color: rgba(255, 255, 255, 0.87);
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+  }
+  .p-card .p-card-body {
+    padding: 1rem;
+  }
+  .p-card .p-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .p-card .p-card-subtitle {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .p-card .p-card-content {
+    padding: 1rem 0;
+  }
+  .p-card .p-card-footer {
+    padding: 1rem 0 0 0;
+  }

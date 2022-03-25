@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipesApp';
+
+  nombre: string = 'cosa';
+
+  mostrarNombre() {
+    console.log(this.nombre);
+    
+  }
+
 }
